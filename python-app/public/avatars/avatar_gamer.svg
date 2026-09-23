@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gamer Pro">
+  <title>Gamer Pro</title>
+  <rect width="100" height="100" rx="50" fill="url(#avatar_gamer_grad)" />
+  <rect x="22" y="38" width="10" height="24" rx="5" fill="#10B981" />
+  <rect x="68" y="38" width="10" height="24" rx="5" fill="#10B981" />
+  <path d="M27 40C27 25 73 25 73 40" stroke="#10B981" stroke-width="6" fill="none" stroke-linecap="round" />
+  <circle cx="50" cy="52" r="20" fill="#FDE047" />
+  <rect x="38" y="46" width="10" height="8" rx="2" fill="#1E293B" />
+  <rect x="52" y="46" width="10" height="8" rx="2" fill="#1E293B" />
+  <line x1="48" y1="50" x2="52" y2="50" stroke="#1E293B" stroke-width="2" />
+  <path d="M46 58C46 62 54 62 54 58" stroke="#1E293B" stroke-width="2" stroke-linecap="round" />
+  <defs>
+    <linearGradient id="avatar_gamer_grad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#064E3B" />
+      <stop offset="1" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+</svg>

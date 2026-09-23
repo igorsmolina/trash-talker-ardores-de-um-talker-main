@@ -1,0 +1,16 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ninja das Sombras">
+  <title>Ninja das Sombras</title>
+  <rect width="100" height="100" rx="50" fill="url(#avatar_ninja_grad)" />
+  <circle cx="50" cy="50" r="30" fill="#1E293B" />
+  <ellipse cx="50" cy="46" rx="22" ry="8" fill="#FFEDD5" />
+  <circle cx="42" cy="46" r="3" fill="#000000" />
+  <circle cx="58" cy="46" r="3" fill="#000000" />
+  <path d="M38 41L45 43M62 41L55 43" stroke="#000000" stroke-width="2" stroke-linecap="round" />
+  <path d="M20 50L10 45M20 52L8 54" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
+  <defs>
+    <linearGradient id="avatar_ninja_grad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="1" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+</svg>

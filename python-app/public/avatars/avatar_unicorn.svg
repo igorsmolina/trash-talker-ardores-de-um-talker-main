@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Unicórnio Mágico">
+  <title>Unicórnio Mágico</title>
+  <rect width="100" height="100" rx="50" fill="url(#avatar_unicorn_grad)" />
+  <path d="M50 15L44 40H56L50 15Z" fill="#FBBF24" />
+  <path d="M35 75C35 55 65 55 65 75" fill="#FFFFFF" />
+  <path d="M35 75C35 55 50 50 50 75" fill="#F1F5F9" />
+  <circle cx="43" cy="65" r="2.5" fill="#F59E0B" />
+  <circle cx="57" cy="65" r="2.5" fill="#F59E0B" />
+  <circle cx="39" cy="70" r="3" fill="#F87171" opacity="0.5" />
+  <circle cx="61" cy="70" r="3" fill="#F87171" opacity="0.5" />
+  <defs>
+    <linearGradient id="avatar_unicorn_grad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4C1D95" />
+      <stop offset="1" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+</svg>

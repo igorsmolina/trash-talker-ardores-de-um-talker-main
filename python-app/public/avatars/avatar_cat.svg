@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gato Cool">
+  <title>Gato Cool</title>
+  <rect width="100" height="100" rx="50" fill="url(#avatar_cat_grad)" />
+  <path d="M30 35L20 60H40L30 35Z" fill="#F87171" />
+  <path d="M70 35L80 60H60L70 35Z" fill="#F87171" />
+  <circle cx="50" cy="62" r="26" fill="#F1F5F9" />
+  <ellipse cx="40" cy="58" rx="3" ry="5" fill="#1E293B" />
+  <ellipse cx="60" cy="58" rx="3" ry="5" fill="#1E293B" />
+  <path d="M50 65 L48 62 L52 62 Z" fill="#F87171" />
+  <path d="M30 65H42M30 69H42M70 65H58M70 69H58" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round" />
+  <defs>
+    <linearGradient id="avatar_cat_grad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7F1D1D" />
+      <stop offset="1" stop-color="#EF4444" />
+    </linearGradient>
+  </defs>
+</svg>

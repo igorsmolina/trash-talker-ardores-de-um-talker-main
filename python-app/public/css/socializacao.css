@@ -1,0 +1,23 @@
+/* Only beta feature presentation lives here; the flag controls whether it exists. */
+.composer-actions { border-top: 1px solid var(--border); margin-top: 0.25rem; padding-top: 0.5rem; }
+.social-tools { margin-left: auto; flex: 0 0 auto; }
+.composer .social-tools + button[type="submit"] { margin-left: 0; }
+.social-actions-menu { left: auto; right: 0; }
+.social-actions-menu .personality-picker-option { min-height: 44px; font-size: 0.875rem; font-weight: 600; }
+.social-menu-trigger { white-space: nowrap; }
+.social-tools button:disabled { opacity: 0.65; }
+.social-badge { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; margin-left: auto; font-size: 14px; }
+.social-badge span { background: var(--secondary); border-radius: 8px; padding: 6px 10px; }
+.social-badge a { min-height: 44px; display: inline-flex; align-items: center; text-decoration: underline; }
+.social-pause { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; width: 100%; max-width: 720px; margin: 8px auto; border: 1px solid var(--border); padding: 12px; border-radius: 16px; background: var(--card); }
+.social-pause p { flex: 1 1 240px; font-size: 14px; }
+.social-field { margin-block: 12px; }
+.modal select { min-height: 48px; width: 100%; padding: 8px; border-radius: 8px; border: 1px solid var(--input); color: var(--foreground); background: var(--card); font-size: 16px; }
+.modal textarea { width: 100%; resize: vertical; max-height: 35dvh; }
+.topbar { flex-wrap: wrap; }
+@media (max-width: 639px) {
+  .composer-actions #personality-picker { flex: 1 1 calc(100% - 52px); }
+  .composer-actions #personality-picker > .personality-picker-trigger { max-width: 100%; }
+  .social-badge { margin-left: 0; }
+  .social-badge a { font-size: 14px; }
+}
