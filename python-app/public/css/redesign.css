@@ -325,12 +325,14 @@ button, input, textarea, select { font-family: inherit; }
   .chat-actions button { min-width: 44px; }
 }
 @media (max-width: 639px) {
-  .lp-nav .brand { margin-right: auto; }
-  .lp-nav-actions .btn-primary { padding-inline: 0.9rem; }
-  .lp-nav-actions .btn-ghost { padding-inline: 0.5rem; }
+  .lp-nav .lp-container { flex-wrap: nowrap; gap: 0.5rem; padding-inline: 0.75rem; }
+  .lp-nav .brand { margin-right: auto; flex-shrink: 0; gap: 0.375rem; font-size: 1rem; white-space: nowrap; }
+  .lp-nav .brand-icon { width: 32px; height: 32px; }
+  .lp-nav-actions { flex-wrap: nowrap; flex-shrink: 0; gap: 0.25rem; }
+  .lp-nav-actions .btn-primary, .lp-nav-actions .btn-ghost { min-height: 44px; padding-inline: 0.5rem; font-size: 0.875rem; white-space: nowrap; }
   .lp-hero-actions { width: 100%; flex-direction: column; align-items: stretch; }
   .lp-hero-actions a { width: 100%; }
-  .hero-art { max-width: 25rem; margin-block: -1rem; }
+  .hero-art { display: none; }
   .lp-step { gap: 1rem; }
   .welcome-screen { justify-content: flex-start; padding-top: clamp(2rem, 7dvh, 4rem); }
   .welcome-screen > p { margin-bottom: 1rem; }
